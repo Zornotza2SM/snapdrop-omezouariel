@@ -39,7 +39,7 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: Europe/Madrid
-      PASSWORD: 2SMAzornotza
+      PASSWORD: ${VSCODE_PASSWORD}
     volumes:
       - ./:/config/workspace
       - code_config:/config
