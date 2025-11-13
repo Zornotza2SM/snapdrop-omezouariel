@@ -76,6 +76,15 @@ services:
     
 
 
+
+  mi-servicio:
+    build:
+      context: /.
+
 volumes:
   code_config:
   portainer_data:
+
+
+
+
